@@ -1,0 +1,19 @@
+* {
+  color: black;
+  background-color: #D7A1A7;
+}
+p {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid blue;
+}
+p > span {
+  color: #3B83BD;
+  /*font-weight: 700;*/
+  font-weight: bold;
+  font-size: 2em;
+}
+span > a {
+  color: yellow;
+  text-decoration: none;
+}
