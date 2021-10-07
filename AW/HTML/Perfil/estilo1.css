@@ -24,3 +24,23 @@ img#github {
   width: 100px;
   height: 50px;
 }
+img#gusto {
+  border:2px solid black;
+  width: 150px;
+  height: 100px;
+}
+td#tds {
+  background: white;
+}
+table {
+ border: solid;
+ border-color: green;
+}
+thead {
+ border: solid;
+ border-color: green;
+}
+tbody{
+ border: solid;
+ border-color: green;
+}
