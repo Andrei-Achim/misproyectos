@@ -1,5 +1,6 @@
 
 body {
+  text-align: center;
   background: #7EF6D2;
 }
 img#cara {
@@ -30,9 +31,13 @@ img#gusto {
   height: 100px;
 }
 td#tds {
-  background: white;
+  border: solid;
 }
 table {
- border: solid;
- border-color: green;
+  margin: auto;
+  width: 700px;
+  height: 250px;
+}
+th {
+  border: solid;
 }
