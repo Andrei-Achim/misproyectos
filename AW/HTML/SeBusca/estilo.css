@@ -1,0 +1,24 @@
+@font-face {
+  font-family: FB;
+  src: url(bBigerOver.ttf);
+}
+@font-face {
+  font-family: FA;
+  src: url(Aero.ttf);
+}
+h1 {
+  font-family: FB;
+  color: Black;
+}
+h2 {
+  font-family: FA;
+  color: Yellow;
+}
+h3 {
+  font-family: FB;
+  color: Red;
+}
+body {
+  text-align: center;
+  background-color: #7EF6D2;
+}
