@@ -8,7 +8,7 @@
 }
 h1 {
   font-family: FB;
-  color: Black;
+  color: white;
 }
 h2 {
   font-family: FA;
@@ -16,9 +16,11 @@ h2 {
 }
 h3 {
   font-family: FB;
-  color: Red;
+  color: white;
 }
 body {
+  background-position: center;
+  background-image: url("Bg.jpg");
   text-align: center;
   background-color: #7EF6D2;
 }
