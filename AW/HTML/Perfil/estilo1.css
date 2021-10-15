@@ -16,7 +16,7 @@ body {
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 div{
   display: block;
@@ -75,6 +75,7 @@ img#gusto {
   height: 100px;
 }
 td#tds {
+  border-radius: 5px;
   color: purple;
   border: black solid;
 }
@@ -85,6 +86,7 @@ table {
   height: 250px;
 }
 th {
+  border-radius: 5px;
   color: purple;
   border: black solid;
 }
