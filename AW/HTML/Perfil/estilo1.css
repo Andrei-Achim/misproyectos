@@ -24,10 +24,12 @@ div{
   margin: 0 auto;
 }
 h1 {
+  font-size: 10mm;
   font-family: TT;
   color: green;
 }
 h2 {
+  font-size: 7mm;
   font-family: TT;
   color: green;
 }
