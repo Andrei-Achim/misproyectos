@@ -1,29 +1,73 @@
-
+@font-face {
+  font-family: TX;
+  src: url(Texto.ttf);
+}
+@font-face {
+  font-family: TT;
+  src: url(Titulo.ttf);
+}
 body {
+  font-family: TX;
   text-align: center;
-  background: #7EF6D2;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 26%, rgba(122,244,195,1) 100%);
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+div{
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: TT;
+  color: green;
+}
+h2 {
+  font-family: TT;
+  color: green;
+}
+p {
+  font-size: 6mm;
+  color: purple;
 }
 img#cara {
   border-radius:150px;
   border:2px solid black;
 }
 img#facebook {
-  border-radius:150px;
+  background-color: purple;
+  border-radius:10px;
   border:2px solid black;
   width: 100px;
   height: 40px;
 }
+img#facebook:hover {
+  background-color: violet;
+}
 img#instagram {
-  border-radius:150px;
+  background-color: purple;
+  border-radius:10px;
   border:2px solid black;
   width: 50px;
   height: 50px;
 }
+img#instagram:hover {
+  background-color: violet;
+}
 img#github {
-  border-radius:150px;
+  background-color: purple;
+  border-radius:10px;
   border:2px solid black;
   width: 100px;
   height: 50px;
+}
+img#github:hover {
+  background-color: violet;
 }
 img#gusto {
   border:2px solid black;
@@ -31,13 +75,16 @@ img#gusto {
   height: 100px;
 }
 td#tds {
-  border: solid;
+  color: purple;
+  border: black solid;
 }
 table {
+  font-size: 5mm;
   margin: auto;
   width: 700px;
   height: 250px;
 }
 th {
-  border: solid;
+  color: purple;
+  border: black solid;
 }
