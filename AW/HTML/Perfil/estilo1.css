@@ -37,36 +37,19 @@ p {
   font-size: 6mm;
   color: purple;
 }
+.cuadrado-pq {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  border-radius:10px;
+  border:2px solid black;
+}
+.img-pul:hover {
+    background-color: violet;
+}
 img#cara {
   border-radius:150px;
   border:2px solid black;
-}
-img#facebook {
-  height: 50px;
-  background-color: purple;
-  border-radius:10px;
-  border:2px solid black;
-}
-img#facebook:hover {
-  background-color: violet;
-}
-img#instagram {
-  height: 50px;
-  background-color: purple;
-  border-radius:10px;
-  border:2px solid black;
-}
-img#instagram:hover {
-  background-color: violet;
-}
-img#github {
-  height: 50px;
-  background-color: purple;
-  border-radius:10px;
-  border:2px solid black;
-}
-img#github:hover {
-  background-color: violet;
 }
 .gusto {
   border:2px solid black;
@@ -91,9 +74,4 @@ th {
 }
 dt {
   display: inline-block;
-}
-.redes > dt{
-  width: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
