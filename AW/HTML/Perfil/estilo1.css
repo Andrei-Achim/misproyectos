@@ -12,11 +12,37 @@ body {
   background: rgb(34,193,195);
   background: linear-gradient(0deg, rgba(34,193,195,1) 26%, rgba(122,244,195,1) 100%);
 }
+li {
+  list-style: none;
+}
 .card {
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
+}
+.list-inline > li {
+  display: inline-block;
+  width: 90px;
+}
+.list-inline {
+  padding-left: 0px;
+}
+.sidebar {
+  background-color: lightgreen;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+.ibar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
 }
 div{
   display: block;
@@ -34,7 +60,7 @@ h2 {
   color: green;
 }
 p {
-  font-size: 6mm;
+  font-size: 5mm;
   color: purple;
 }
 .cuadrado-pq {
@@ -71,7 +97,4 @@ th {
   border-radius: 5px;
   color: purple;
   border: black solid;
-}
-dt {
-  display: inline-block;
 }

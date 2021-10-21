@@ -6,8 +6,14 @@
     <link rel="stylesheet" href="estilo1.css">
   </head>
   <body>
-    <div>
-    <div class="card">
+    <div class="sidebar">
+      <ul>
+        <li><a href="#perfil"><img class="ibar" src="perfil.png" alt=""></a></li>
+        <li><a href="#tgustos"><img class="ibar" src="gustos.png" alt=""></a></li>
+        <li><a href="#info"><img class="ibar" src="info.png" alt=""></a></li>
+      </ul>
+    </div>
+    <div class="card" id="perfil">
       <img id="cara" src="cara.png" width="100px" height="100px" alt="">
       <h1>Hola, mi nombre es Andrei Achim</h1>
     </div>
@@ -18,11 +24,13 @@
     </div>
     <div class="card">
       <h2>Redes Sociales</h2>
-      <dt><img class="cuadrado-pq img-pul" id="facebook" src="facebook.png" alt=""></dt>
-      <dt><img class="cuadrado-pq img-pul" id="instagram" src="instagram.png" alt=""></dt>
-      <dt><a href="https://github.com/Andrei-Achim/misproyectos"><img class="cuadrado-pq img-pul" id="github" src="github.png" alt=""></a></dt>
+      <ul class="list-inline">
+      <li><img class="cuadrado-pq img-pul" id="facebook" src="facebook.png" alt=""></li>
+      <li><img class="cuadrado-pq img-pul" id="instagram" src="instagram.png" alt=""></li>
+      <li><a href="https://github.com/Andrei-Achim/misproyectos"><img class="cuadrado-pq img-pul" id="github" src="github.png" alt=""></a></li>
+    </ul>
     </div>
-    <div class="card">
+    <div class="card" id="tgustos">
       <h2>Cosas que me Interesan</h2>
       <table>
         <thead>
@@ -54,7 +62,7 @@
             <a href="https://www.twitch.tv/blooprint"><img class="cuadrado-pq img-pul" id="twitch" src="twitch.png"></img></a>
           </td>
         </tr>
-        <td class="tds">
+        <td class="tds">s
           <img class="gusto" src="starcraft2.jpg" alt="">
         </td>
         <td class="tds">StarCraft2</td>
@@ -66,6 +74,10 @@
         </tbody>
       </table>
     </div>
-  </div>
+    <div class="card" id="info">
+      <p>Esta página fue creada con el propocito de apender sobre la creación de una página web.<br>
+         Espero que os haya gustado.</p>
+         <img class="cuadrado-pq img-pul" id="emoji" src="emoji1.png" alt="">
+    </div>
   </body>
 </html>
