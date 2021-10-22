@@ -1,0 +1,23 @@
+@import url("animation.css");
+@import url("animation_cheat_sheet.css");
+@font-face {
+    font-family: MM;
+    src: url(Titulo.tff);
+}
+body {
+  font-family:  MM;
+  font-weight: 100;
+}
+#banner {
+  background: lightgreen;
+  position: relative;
+  color: purple;
+  padding: 50px 50px;
+  height: 100px;
+}
+#banner > h1 {
+  text-align: center;
+  position: fixed;
+  size: 4mm;
+  color: darkgreen;
+}
