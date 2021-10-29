@@ -1,0 +1,18 @@
+@font-face {
+  font-family: militar;
+  src: url(militar.tff);
+}
+body {
+  text-align: center;
+  background-image: url(armas.jpeg);
+
+}
+h1  {
+  font-family: militar;
+}
+.card {
+  background-image: url(metal.jpg);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}

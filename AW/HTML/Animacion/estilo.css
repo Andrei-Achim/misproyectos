@@ -1,5 +1,4 @@
 @import url("animation.css");
-@import url("animation_cheat_sheet.css");
 @font-face {
     font-family: MM;
     src: url(Titulo.tff);
@@ -20,4 +19,5 @@ body {
   position: fixed;
   size: 4mm;
   color: darkgreen;
+  animation-name: PulseAndBounce
 }
