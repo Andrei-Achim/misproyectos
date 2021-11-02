@@ -1,18 +1,43 @@
 @font-face {
   font-family: militar;
-  src: url(militar.tff);
+  src: url(militar.ttf);
+}
+@font-face {
+  font-family: textm;
+  src: url(textm.ttf);
+}
+form {
+  font-family: textm;
+}
+h2, h3 {
+  font-family: textm;
+  color: green;
 }
 body {
   text-align: center;
-  background-image: url(armas.jpeg);
-
+  color: purple;
+  background-image: url(metal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1  {
+  color: lightgreen;
   font-family: militar;
 }
+
 .card {
-  background-image: url(metal.jpg);
+  width: 800px;
+  position: ;
+  background-color: grey;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
+}
+div {
+  display: block;
+  margin: 0 auto;
+}
+input {
+  text-align: center;
+  display: inline-flex;
 }

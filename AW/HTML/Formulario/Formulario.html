@@ -8,21 +8,61 @@
   <body>
     <div class="card">
       <h1>Bienvenido a AirsoftLegion</h1>
-      <p>Indroduzca sus datos para incribirse y participar en esta experencia.</p>
+      <h3>Indroduzca sus datos para incribirse y participar en esta experencia.<h3>
     </div>
     <div class="card">
       <form class="" action="index.html" method="post">
           <h2>Datos Personales</h2>
-          Nombre  <input type="text" name="nombre">
-          Apellidos <input type="text" name="apellidos"><br>
-          Edad  <input type="number" name="edad" size="2">
-          DNI <input type="text" name="dni" size="9">
-          Fecha de nacimiento <input type="date" name="nacimiento" value=""><br>
-          Teléfono  <input type="number" name="telefono" size="9">
-          Móvil <input type="numbre" name="movil" size="9"><br>
-          Correo <input type="text" name="correo"><br>
-          Genero <input type="radio" name="boton"> Hombre <input type="radio" name="boton"> Mujer
-
+          <p>Nombre y Apellidos</p>  <input type="text" name="nombre">
+          <p>Edad</p>  <input type="number" name="edad" size="2">
+          <p>DNI</p> <input type="text" name="dni" size="9">
+          <p>Foto</p> <input type="file">
+          <p>Fecha de nacimiento</p> <input type="date" name="nacimiento" value=""><br>
+          <p>Telefono</p> <input type="number" name="telefono" size="9">
+          <p>Movil</p>  <input type="number" name="movil" size="9"><br>
+          <p>Correo</p> <input type="email" name="correo"><br>
+          <p>Genero</p> <input type="radio" name="boton"> Hombre <input type="radio" name="boton"> Mujer
+          <p>Permiso Arisoft (suba una foto o documento de su permiso)</p> <input type="file">
+          <p>Región</p>
+          <select class="región" name="región">
+            <option value="">España</option>
+            <option value="">Francia</option>
+            <option value="">Alemania</option>
+            <option value="">Rumania</option>
+            <option value="">Portugal</option>
+            <option value="">Reino Unido</option>
+          </select>
+          <p>Suba una lista de las armas que utiliza</p> <input type="file" name="" value="" size="50px">
+      </form>
+    </div>
+    <div class="card">
+      <form class="" action="index.html" method="post">
+          <h2>Opciones Extras</h2>
+          <p>En algunos centros hacemos otras actividades y tambien durante las partidas ponemos musica si tiene alguna preferencia no dude en ponerla.</p>
+          <h3>Actividades Extra</h3>
+          <select class="actividad" name="actividad">
+            <option value="">Boxeo</option>
+            <option value="">Enseñanza de Videojuegos</option>
+            <option value="">Baile</option>
+            <option value="">Defensa Personal</option>
+            <option value="">Juegos de mesa</option>
+          </select>
+          <p>Horario (Elija la hora a la que quiere participar a estas actividad)</p>
+          <input type="time" name="" value="">
+          <h2>Cansiones</h2>
+          <p>Suba o elija alguna canción para que suene en los centros o durante sus partidas</p>
+          URL: <input type="url" name="" value=""></input>
+          Elija una canción: <select class="music" name="">
+            <option value="">CloudKid - Ghost</option>
+            <option value="">Bruno Mars - Grenade</option>
+            <option value="">Ghostemane</option>
+            <option value="">Eminem</option>
+          </select>
+      </form>
+    </div>
+    <div class="card">
+      <form class="" action="index.html" method="post">
+          <input type="submit" name="" value="Enviar"> <input type="" name="" value="Borrar">
       </form>
     </div>
   </body>
