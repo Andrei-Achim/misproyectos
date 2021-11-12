@@ -2,16 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>FORM procesado</title>
+    <title>Procesa</title>
   </head>
   <body>
     <?php
-      print_r($_POST);
+      $fichero = 'datos.txt';
+      $actual = file_get_contents($fichero);
+      $actual .= $_POST['nombre']." ";
+      $actual .= $_POST['apellido']." ";
+      $actual .= $_POST['fecha']." ";
+      $actual .= $_POST['edad']." ";
+      $actual .= $_POST['favorito']." ";
+      $actual .= $_POST['nota']." ";
+      $actual .= $_POST['zodiaco']."\n";
+      file_put_contents($fichero, $actual);
     ?>
-    <h1>Bienvenido <?php echo $_POST['nombre'] ?> <?php echo $_POST['apellido'] ?> </h1>
-    <h2>Fecha Nacimiento <?php echo $_POST['fecha'] ?> </h2>
-    <h2>Color Favorito <?php echo $_POST['favorito'] ?> </h2>
-    <h2>Nota examen deseada <?php echo $_POST['nota'] ?></h2>
-    <h2>Signo zodiaco <?php echo $_POST['zodiaco'] ?></h2>
+    <h1>Guardado</h1>
+    <a href="listado.php">Ir al listado</a>
   </body>
 </html>

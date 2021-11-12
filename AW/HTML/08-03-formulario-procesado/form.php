@@ -21,6 +21,7 @@
       <h2>Nombre </h2><input type="text" name="nombre" value="" placeholder="Introduzca su Nombre"><br>
       <h2>Apellido</h2><input type="text" name="apellido" value="" placeholder="Intoduzca su Apellido"><br>
       <h2>Fecha de nacimiento</h2> <input type="date" name="fecha" value="" placeholder="Fecha de nacimiento"><br>
+      <h2>Edad</h2> <input type="number" name="edad" value="" placeholder="Edad"><br>
       <h2>Color Favorito</h2><input type="color" name="favorito" value="" placeholder="Color Favorito"><br>
        <h2> ¿Qué nota cree que sacá en Aplicaciones Web?</h2>
        <input id="range-nota" type="range" min="0" max="10" step="1" name="nota" value="" >
