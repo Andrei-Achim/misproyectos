@@ -1,5 +1,14 @@
 <?php
-$numero_aleatorio=2;
+session_start();
+
+if ( ! isset($_POST['numero'])) { // si no envío nada
+  $_SESSION['numero']=rand(1,10);
+  $_SESSION['intentos']=0;
+}
+
+$numero_aleatorio=$_SESSION['numero'];
+$intentos=$_SESSION['intentos'];
+$_SESSION['intentos']=$_SESSION['intentos']+1;
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -35,5 +44,6 @@ $numero_aleatorio=2;
       }
        ?>
     </div>
+    <p> <a href="index.php">Reiniciar Partida</a> </p>
   </body>
 </html>
