@@ -41,7 +41,10 @@ $_SESSION['intentos']=$_SESSION['intentos']+1;
         if ($numero_aleatorio > $_POST['numero']) {
           echo "<h1>Tu numero es mas bajo</h1>";
         }
-      } else {
+      if ($intentos > 3){
+          echo "<h1>Has perdido</h1>";
+      }
+    } else {
           echo "Bienvenido al juego!";
       }
        ?>
