@@ -28,6 +28,8 @@ $_SESSION['intentos']=$_SESSION['intentos']+1;
       </form>
       <h2>Respuesta:</h2>
       <?php
+      if(isset($_SESSION['intentos'])){
+        echo "<h3>Ha sido enviado $intentos veces </h3>";}
       if (isset($_POST['numero']) ) {
         echo "<h3>Has enviado algo:" . $_POST ['numero'] . "</h3>";
         if ($numero_aleatorio == $_POST['numero']) {
