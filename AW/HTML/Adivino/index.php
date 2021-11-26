@@ -22,9 +22,9 @@ $_SESSION['intentos']=$_SESSION['intentos']+1;
     <div class="">
       <form class="" action="index.php" method="post">
         <p>Primero escribe un numero del 1 al 10</p>
-        <input type="text" name="numero" value="">
+          <input type="text" name="numero" value="">
         <p>Envia el numero para que lo vea y darte una respuesta</p>
-        <input type="submit" name="" value="Enviar">
+          <input type="submit" name="" value="Enviar">
       </form>
       <h2>Respuesta:</h2>
       <?php
