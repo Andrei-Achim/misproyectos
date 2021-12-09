@@ -3,3 +3,12 @@ body {
   background: lightblue;
   font-size: 6mm;
 }
+select {
+  font-size: 6mm;
+}
+input {
+  font-size: 6mm;
+}
+p {
+  font-size: 7mm;
+}

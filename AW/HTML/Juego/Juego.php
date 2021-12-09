@@ -19,14 +19,26 @@ $numero_aleatorio=rand(1,3);
                               <option value="1">Piedra</option>
                               <option value="2">Papel</option>
                               <option value="3">Tijera</option>
-                          </select>
+                          </select><br><br>
           <input type="submit" name="" value="Enviar">
       </form>
       <h2>Respuesta:</h2>
       <?php
       if (isset($_POST['numero']) ) {
-        echo "<h3>Has Elegido:" . $_POST ['numero'] . "</h3>";
-        echo "<h3>La maquina eligio:" . $numero_aleatorio . "</h3>";
+        echo "<h3>Has Elegido:</h3>";
+          if ($_POST['numero']==1)
+            echo "<img src=piedra.png><br>";
+          if ($_POST['numero']==2)
+            echo "<img src=papel.png><br>";
+          if ($_POST['numero']==3)
+            echo "<img src=tijeras.png><br>";
+        echo "<h3>La maquina eligio:</h3>";
+          if ($numero_aleatorio==1)
+            echo "<img src=piedra.png><br>";
+          if ($numero_aleatorio==2)
+            echo "<img src=papel.png><br>";
+          if ($numero_aleatorio==3)
+            echo "<img src=tijeras.png><br>";
         if(($_POST ['numero']==1&&$numero_aleatorio==3)||($_POST ['numero']==2&&$numero_aleatorio==1)||($_POST ['numero']==3&&$numero_aleatorio==2))
           echo 'Gana el usuario<br>';
         if(($_POST ['numero']==3&&$numero_aleatorio==1)||($_POST ['numero']==1&&$numero_aleatorio==2)||($_POST ['numero']==2&&$numero_aleatorio==3))
