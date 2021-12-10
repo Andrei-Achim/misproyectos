@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sonidos</title>
+    <script type="text/javascript">
+      window.addEventListener('keypress', function(info){
+        let sonidoVaca = document.getElementById('vaca')
+        if(info.key == 'm') {
+            sonidoVaca.play()
+        }
+        let sonidoPerro = document.getElementById('perro')
+        if(info.key == 'p') {
+            sonidoPerro.play()
+        }
+        let sonidoGato = document.getElementById('gato')
+        if(info.key == 'g') {
+            sonidoGato.play()
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <h1>Sonidos</h1>
+    <ul>
+      <li>Pulsa m para Vaca</li>
+      <li>Pulsa p para Perro</li>
+      <li>Pulsa g para Gato</li>
+    </ul>
+    <audio id="vaca" src="mugido.mp3" controls></audio>
+    <audio id="perro" src="ladrido.mp3" controls></audio>
+    <audio id="gato" src="maullido.mp3" controls></audio>
+  </body>
+</html>

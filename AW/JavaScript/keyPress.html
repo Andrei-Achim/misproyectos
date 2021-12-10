@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>KeyPress</title>
+    <script type="text/javascript">
+      window.addEventListener('keypress', function(info){
+        let cuerpo = document.body
+        cuerpo.style.backgroundColor = '#' +Math.floor(Math.random()*16581375).toString(16)
+
+        let tecla = document.getElementById("tecla")
+        tecla.innerHTML = info.key
+      })
+    </script>
+  </head>
+  <body>
+    <h1>KeyPress</h1>
+    <p id="tecla"> aa </p>
+  </body>
+</html>
