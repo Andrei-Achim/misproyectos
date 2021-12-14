@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript">
+      window.addEventListener('load',function(){
+        let botonCalcular = document.getElementById('calcular')
+        let resultado = document.getElementById('res')
+        let formulario = document.getElementById('calc-form')
+        botonCalcular.addEventListener('click', function(){
+          let n1 = parseInt(formulario.n1.value)
+          let n2 = parseInt(formulario.n2.value)
+          let op = formulario.op.value
+          let res = 0
+          if (op == '+') {
+            res = n1+n2
+          }
+          if (op == '-') {
+            res = n1-n2
+          }
+          if (op == '*') {
+            res = n1*n2
+          }
+          if (op == '/') {
+            res = n1/n2
+          }
+          resultado.innerHTML=res
+
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="principal">
+      <h1>Calculadora</h1>
+      <div class="calc">
+        <form class="" id="calc-form" action="index.html" method="post">
+        <p>
+        N1 <input type="number" id="n1" name="" value="" placeholder="op1"><br>
+        N2 <input type="number" id="n2" name="" value="" placeholder="op2">
+        </p>
+        <p>
+          <input type="radio" name="op" id="op" value="+"> Suma
+          <input type="radio" name="op" id="op" value="-"> Resta
+          <input type="radio" name="op" id="op" value="*"> Multiplicación
+          <input type="radio" name="op" id="op" value="/"> Divición
+        </p>
+        <p>
+          <input type="button" name="" value="Calcular" id="calcular">
+        </p>
+        <p>
+          <h1 id="res">Resultado</h1><br>
+
+        </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
