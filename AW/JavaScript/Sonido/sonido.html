@@ -8,17 +8,29 @@
       window.addEventListener('keypress', function(info){
         let sonidoVaca = document.getElementById('vaca')
         if(info.key == 'm') {
+          if (sonidoVaca.paused) {
             sonidoVaca.play()
+          } else {
+            sonidoVaca.pause()
+          }
         }
         let sonidoPerro = document.getElementById('perro')
         if(info.key == 'p') {
+          if (sonidoPerro.paused) {
             sonidoPerro.play()
+          } else {
+            sonidoPerro.pause()
+          }
         }
         let sonidoGato = document.getElementById('gato')
         if(info.key == 'g') {
+          if (sonidoGato.paused) {
             sonidoGato.play()
+          } else {
+            sonidoGato.pause()
+          }
         }
-      })
+    })
     </script>
   </head>
   <body>
